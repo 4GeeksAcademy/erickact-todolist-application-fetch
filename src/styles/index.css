@@ -1,12 +1,40 @@
 
-/* 
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Gupter:wght@400;500;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap');
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body{
+    font-family: "Poppins", sans-serif;
+}
+.poppins-thin {
+    font-weight: 100;
+    font-style: normal;
+  }
 
-*/
+.poppins-extralight {
+    font-weight: 200;
+    font-style: normal;
+  }
+
+.input{
+    border: none;
+    outline: none;
+}
+
+.input:focus{
+    border: none;
+    box-shadow: none;
+}
+
+.input:active{
+    border: none;
+}
+
+.button{
+    background: none; 
+    border: none;   
+    padding: 0;   
+    margin: 0;
+    font: inherit;  
+    cursor: pointer; 
+    outline: none;
+    color: rgb(237, 166, 177);
+}
