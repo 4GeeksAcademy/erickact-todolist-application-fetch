@@ -28,7 +28,7 @@ body{
     border: none;
 }
 
-.button{
+.delete{
     background: none; 
     border: none;   
     padding: 0;   
@@ -37,4 +37,15 @@ body{
     cursor: pointer; 
     outline: none;
     color: rgb(237, 166, 177);
+}
+
+.button {
+    background-color: rgb(237, 166, 177);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    white-space: nowrap;
+    
 }
